@@ -9,24 +9,30 @@
     </head>
     <body>
     <h1>timeSince.js test</h1>
-    <p>Predefined variables: <code> var now = new Date();</code></pre>
+    <p>Predefined variables:</p>
+<code><pre>var now = new Date();
+var time = now.getTime();
+    </pre></code>
+    
     <div id="test"></div>
 
 <script src="timeSince.js"></script>
 <script src="test.js"></script>
 <script>
-
 var now = new Date();
-
-var twelveMinutesAgo = new Date(now.getTime() - (60000 * 12));
+var time = now.getTime(); 
 
 test("Passed test", "a", "a");
 test("Failed test", "a","b");
 test("now.timeSince()", now.timeSince(), "Now");
-test("new Date(now.getTime() - 5000)", new Date(now.getTime() - 5000), "5 seconds ago");
-
-test(twelveMinutesAgo.timeSince(), "12 minutes ago");
-
+test("new Date(time - 1000).timeSince()", new Date(time - 1000).timeSince(), "1 second ago");
+test("new Date(time - 5000).timeSince()", new Date(time - 5000).timeSince(), "5 seconds ago");
+test("new Date(time - (60000 * 12)).timeSince()", new Date(time - (60000 * 13)).timeSince(), "13 minutes ago");
+test("new Date(time - (60000 * 65)).timeSince()", new Date(time - (60000 * 65)).timeSince(), "1 hour ago");
+test("new Date(time - (60000 * 265)).timeSince()", new Date(time - (60000 * 265)).timeSince(), "4 hours ago");
+test("new Date(time - (60000 * 60 * 30).timeSince()", new Date(time - (60000 * 60 * 30)).timeSince(), "Yesterday");
+test("new Date(time - (60000 * 60 * 24 * 5).timeSince()", new Date(time - (60000 * 60 * 24 * 5)).timeSince(), "5 days ago");
+test("new Date(time - (60000 * 60 * 24 * 12).timeSince()", new Date(time - (60000 * 60 * 24 * 12)).timeSince(), "1 week ago");
 </script>
 
 </body>

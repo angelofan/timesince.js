@@ -8,6 +8,6 @@ function test(name, a, b) {
     else 
         result = "fail";
 
-    log.innerHTML += '<div class="' + result  + '"><strong>'+ name + '</strong><br>got: ' + a + '<br>expecting: ' + b + '</div>'
+    log.innerHTML += '<div class="' + result  + '"><strong>'+ name + '</strong><br>expecting: ' + b + '<br>got: ' + a + '</div>'
     
 }
