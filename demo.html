@@ -1,0 +1,33 @@
+<!doctype HTML>
+<html lang="en">
+    <head>
+        <style>
+            div {margin:10px 0; border-top: 1px solid black;  padding: 10px 0}
+            .fail {background: lightpink;}
+            .pass {background: lightgreen;}
+        </style>
+    </head>
+    <body>
+    <h1>timeSince.js test</h1>
+    <p>Predefined variables: <code> var now = new Date();</code></pre>
+    <div id="test"></div>
+
+<script src="timeSince.js"></script>
+<script src="test.js"></script>
+<script>
+
+var now = new Date();
+
+var twelveMinutesAgo = new Date(now.getTime() - (60000 * 12));
+
+test("Passed test", "a", "a");
+test("Failed test", "a","b");
+test("now.timeSince()", now.timeSince(), "Now");
+test("new Date(now.getTime() - 5000)", new Date(now.getTime() - 5000), "5 seconds ago");
+
+test(twelveMinutesAgo.timeSince(), "12 minutes ago");
+
+</script>
+
+</body>
+</html>
