@@ -1,0 +1,10 @@
+Extends the JavaScript Date prototype with a
+method that returns a human readable "time ago"
+string between then and now
+
+Built with internatialization in mind
+
+
+Example Usage:
+
+new Date().timeSince() //=== "Now"
