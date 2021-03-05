@@ -6,14 +6,21 @@
 
 ## 使用CDN
 
+`timesince.js` 开发版本 - 2.26KB
 ```
-https://unpkg.com/browse/timesince.js@1.0.1/timesince.js
-https://cdn.jsdelivr.net/npm/timesince.js@1.0.1/timesince.js
+https://unpkg.com/timesince.js@1.0.2/timesince.js
+https://cdn.jsdelivr.net/npm/timesince.js@1.0.2/timesince.js
+```
+
+`timesince.min.js` 压缩版本 - 1.1kB
+```
+https://unpkg.com/timesince.js@1.0.2/timesince.min.js
+https://cdn.jsdelivr.net/npm/timesince.js@1.0.2/timesince.min.js
 ```
 
 ## 自托管
 
-将`timesince.js`文件引入您的项目中即可
+将`timesince.js`或`timesince.min.js`文件引入您的项目中即可
 
 # 国际化
 
@@ -27,6 +34,11 @@ new Date(time).timeSince();
 ```
 
 # 更新日志
+
+## v1.0.2
+
+- 仅仅为了将README.MD文件同步到npm
+- timesince.js较上一个版本没有任何变化
 
 ## v1.0.1
 
