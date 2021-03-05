@@ -1,7 +1,4 @@
 /*
-* Copyright 2010, Daniel Stocks (http://webcloud.se)
-* Released under the MIT, BSD, and GPL Licenses.
-*
 * timesince.js
 * --
 * Extends the JavaScript Date prototype with a
