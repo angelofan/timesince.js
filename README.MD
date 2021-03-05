@@ -6,7 +6,10 @@
 
 ## 使用CDN
 
-正在寻找CDN托管平台
+```
+https://unpkg.com/browse/timesince.js@1.0.0/timesince.js
+https://cdn.jsdelivr.net/npm/timesince.js@1.0.0/timesince.js
+```
 
 ## 自托管
 
@@ -22,3 +25,10 @@
 let time = "2021-03-05 13:08:01";
 new Date(time).timeSince();
 ```
+
+# 更新日志
+
+## v1.0.0
+
+- 全新发布
+- 支持中文和英文
