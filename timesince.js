@@ -45,7 +45,7 @@
             return '1 ' + l["week"];
     }
 
-    var DEFAULT_LANG = "EN"
+    var DEFAULT_LANG = "ZH"
     var locale = {}
     locale.EN = {
         "now": "Now",
