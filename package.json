@@ -1,6 +1,6 @@
 {
   "name": "timesince.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "友好时间js，用于返回人类可读的“几分钟前”字符串",
   "main": "timesince.min.js",
   "scripts": {

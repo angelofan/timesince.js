@@ -7,8 +7,8 @@
 ## 使用CDN
 
 ```
-https://unpkg.com/browse/timesince.js@1.0.0/timesince.js
-https://cdn.jsdelivr.net/npm/timesince.js@1.0.0/timesince.js
+https://unpkg.com/browse/timesince.js@1.0.1/timesince.js
+https://cdn.jsdelivr.net/npm/timesince.js@1.0.1/timesince.js
 ```
 
 ## 自托管
@@ -27,6 +27,11 @@ new Date(time).timeSince();
 ```
 
 # 更新日志
+
+## v1.0.1
+
+- 仅仅为了将README.MD文件同步到npm
+- timesince.js较上一个版本没有任何变化
 
 ## v1.0.0
 
