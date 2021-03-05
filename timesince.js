@@ -25,44 +25,44 @@
             if (s === 0)
                 return l["now"];
             if (s === 1)
-                return '1 ' + l["second"];
+                return '1' + l["second"];
             if (s < 60)
-                return Math.floor(s) + ' ' + l["seconds"];
+                return Math.floor(s) + l["seconds"];
             if (s < 120)
-                return '1 ' + l["minute"];
+                return '1' + l["minute"];
             if (s < 3600)
-                return Math.floor(s / 60) + ' ' + l["minutes"];
+                return Math.floor(s / 60) + l["minutes"];
             if (s < 7200)
-                return '1 ' + l["hour"]
+                return '1' + l["hour"]
             if (s < 86400)
-                return Math.floor(parseInt(s / 3600)) + ' ' + l["hours"];
+                return Math.floor(parseInt(s / 3600)) + l["hours"];
         }
         if (d == 1)
             return l["yesterday"];
         if (d < 7)
-            return d + ' ' + l["days"];
+            return d + l["days"];
         if (d < 14)
-            return '1 ' + l["week"];
+            return '1' + l["week"];
     }
 
     var DEFAULT_LANG = "ZH"
     var locale = {}
     locale.EN = {
         "now": "Now",
-        "second": "second ago",
-        "seconds": "seconds ago",
-        "minute": "minute ago",
-        "minutes": "minutes ago",
-        "hour": "hour ago",
-        "hours": "hours ago",
+        "second": " second ago",
+        "seconds": " seconds ago",
+        "minute": " minute ago",
+        "minutes": " minutes ago",
+        "hour": " hour ago",
+        "hours": " hours ago",
         "yesterday": "Yesterday",
-        "days": "days ago",
-        "week": "week ago",
-        "weeks": "weeks ago",
-        "month": "month ago",
-        "months": "months ago",
-        "year": "year ago",
-        "years": "years ago"
+        "days": " days ago",
+        "week": " week ago",
+        "weeks": " weeks ago",
+        "month": " month ago",
+        "months": " months ago",
+        "year": " year ago",
+        "years": " years ago"
     }
     locale.ZH = {
         "now": "现在",
