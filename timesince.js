@@ -27,15 +27,15 @@
             if (s === 1)
                 return '1 ' + l["second"];
             if (s < 60)
-                return s + ' ' + l["seconds"];
+                return Math.floor(s) + ' ' + l["seconds"];
             if (s < 120)
                 return '1 ' + l["minute"];
             if (s < 3600)
-                return (s / 60) + ' ' + l["minutes"];
+                return Math.floor(s / 60) + ' ' + l["minutes"];
             if (s < 7200)
                 return '1 ' + l["hour"]
             if (s < 86400)
-                return parseInt(s / 3600) + ' ' + l["hours"];
+                return Math.floor(parseInt(s / 3600)) + ' ' + l["hours"];
         }
         if (d == 1)
             return l["yesterday"];
