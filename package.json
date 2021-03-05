@@ -1,0 +1,23 @@
+{
+  "name": "timesince.js",
+  "version": "1.0.0",
+  "description": "友好时间js，用于返回人类可读的“几分钟前”字符串",
+  "main": "timesince.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelofan/timesince.js.git"
+  },
+  "keywords": [
+    "timesince.js",
+    "timesince"
+  ],
+  "author": "Angelo Fan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angelofan/timesince.js/issues"
+  },
+  "homepage": "https://github.com/angelofan/timesince.js#readme"
+}
