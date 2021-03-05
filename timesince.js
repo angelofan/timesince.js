@@ -64,5 +64,22 @@
         "year": "year ago",
         "years": "years ago"
     }
+    locale.ZH = {
+        "now": "现在",
+        "second": "秒前",
+        "seconds": "秒前",
+        "minute": "分钟前",
+        "minutes": "分钟前",
+        "hour": "小时前",
+        "hours": "小时前",
+        "yesterday": "昨天",
+        "days": "天前",
+        "week": "周前",
+        "weeks": "周前",
+        "month": "个月前",
+        "months": "个月前",
+        "year": "年前",
+        "years": "年前"
+    }
 
 })();
